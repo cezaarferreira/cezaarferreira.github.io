@@ -92,7 +92,7 @@
 
     <nav>
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="#">Sobre</a>
         <a href="#">Services</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
@@ -108,24 +108,7 @@
         <p>Your brief introduction goes here...</p>
     </section>
 
-    <section class="services">
-        <div>
-            <img src="service1-icon.png" alt="Service 1">
-            <h3>Portfólio 1</h3>
-            <p>Description of Service 1.</p>
-        </div>
-        <div>
-            <img src="service2-icon.png" alt="Service 2">
-            <h3>Service 2</h3>
-            <p>Description of Service 2.</p>
-        </div>
-        <!-- Add more service items as needed -->
-    </section>
-
-    <section class="testimonials">
-        <h2>What Our Clients Say</h2>
-        <!-- Testimonial slider or grid goes here -->
-    </section>
+   
 
     <section class="contact">
         <h2>Contact Us</h2>
