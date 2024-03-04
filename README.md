@@ -1,10 +1,10 @@
-# <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Minimalist Website</title>
+    <title>DK</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -104,14 +104,14 @@
     </section>
 
     <section class="about">
-        <h2>About Us</h2>
+        <h2>Sobre</h2>
         <p>Your brief introduction goes here...</p>
     </section>
 
     <section class="services">
         <div>
             <img src="service1-icon.png" alt="Service 1">
-            <h3>Service 1</h3>
+            <h3>Portfólio 1</h3>
             <p>Description of Service 1.</p>
         </div>
         <div>
@@ -133,7 +133,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; 2024 DK. All rights reserved.</p>
     </footer>
 
 </body>
