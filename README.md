@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -10,21 +9,21 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2; /* Updated background color to grey */
-            color: #333;
+            background-color: #1f1f1f;
+            color: #fff;
         }
 
         header {
-            background-color: #333;
+            background-color: #111;
             color: #fff;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background-color: ##f2f2f2;
+            background-color: #333;
             padding: 10px;
         }
 
@@ -44,39 +43,29 @@
 
         .hero {
             text-align: center;
+            padding: 50px;
+            background-color: #222;
         }
 
         .hero img {
             max-width: 100%;
             height: auto;
+            border-radius: 10px;
         }
 
-        .about {
-            text-align: center;
+        .latest-tracks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            text-align: center;
-        }
-
-        .services img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .testimonials {
-            text-align: center;
-        }
-
-        .contact {
+        .track {
+            margin: 10px;
             text-align: center;
         }
 
         footer {
-            background-color: #333;
+            background-color: #111;
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -87,38 +76,45 @@
 <body>
 
     <header>
-        <h1>Your Company Name</h1>
+        <h1>Nome do Produtor Musical</h1>
+        <p>Explorando sons inovadores</p>
     </header>
 
     <nav>
         <a href="#">Home</a>
         <a href="#">Sobre</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#">Músicas</a>
+        <a href="#">Contato</a>
     </nav>
 
     <section class="hero">
-        <img src="hero-image.jpg" alt="Hero Image">
-        <h2>Welcome to Our Minimalist Website</h2>
+        <img src="hero-image.jpg" alt="Produtor Musical">
+        <h2>Bem-vindo ao Mundo da Música</h2>
+        <p>Descubra novos sons e vibrações.</p>
     </section>
 
-    <section class="about">
-        <h2>Sobre</h2>
-        <p>Your brief introduction goes here...</p>
-    </section>
-
-   
-
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact form goes here -->
+    <section class="latest-tracks">
+        <div class="track">
+            <h3>Última Faixa 1</h3>
+            <audio controls>
+                <source src="track1.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <div class="track">
+            <h3>Última Faixa 2</h3>
+            <audio controls>
+                <source src="track2.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <!-- Adicione mais faixas conforme necessário -->
     </section>
 
     <footer>
-        <p>&copy; 2024 DK. All rights reserved.</p>
+        <p>&copy; 2024 DK. Todos os direitos reservados.</p>
     </footer>
 
 </body>
 
-</html>
+</html
