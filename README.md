@@ -1,16 +1,15 @@
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DK</title>
+    <title>Sobre Nós - Sua Empresa</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2; /* Updated background color to grey */
+            background-color: #f2f2f2;
             color: #333;
         }
 
@@ -24,7 +23,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: ##f2f2f2;
+            background-color: #444;
             padding: 10px;
         }
 
@@ -40,39 +39,7 @@
 
         section {
             padding: 20px;
-        }
-
-        .hero {
-            text-align: center;
-        }
-
-        .hero img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .about {
-            text-align: center;
-        }
-
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            text-align: center;
-        }
-
-        .services img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .testimonials {
-            text-align: center;
-        }
-
-        .contact {
-            text-align: center;
+            text-align: justify;
         }
 
         footer {
@@ -87,36 +54,26 @@
 <body>
 
     <header>
-        <h1>Your Company Name</h1>
+        <h1>Sua Empresa</h1>
     </header>
 
     <nav>
         <a href="#">Home</a>
         <a href="#">Sobre</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#">Serviços</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Contato</a>
     </nav>
 
-    <section class="hero">
-        <img src="hero-image.jpg" alt="Hero Image">
-        <h2>Welcome to Our Minimalist Website</h2>
-    </section>
-
-    <section class="about">
-        <h2>Sobre</h2>
-        <p>Your brief introduction goes here...</p>
-    </section>
-
-   
-
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact form goes here -->
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo à página "Sobre Nós" da Sua Empresa. Somos uma equipe dedicada e apaixonada por fornecer soluções excepcionais para nossos clientes.</p>
+        <p>Nossa missão é [insira sua missão aqui]. Trabalhamos com um compromisso inabalável com a qualidade, inovação e satisfação do cliente.</p>
+        <p>Se você quiser saber mais sobre o que fazemos, não hesite em entrar em contato.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 DK. All rights reserved.</p>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
     </footer>
 
 </body>
